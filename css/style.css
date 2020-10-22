@@ -15,38 +15,36 @@
       }
       
     /*header*/
-    .page-head {
-        position: fixed;
-        background: white;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px;
-        padding-left: 90px;
-        padding-right: 140px;
-        left: 0;
-        right: 0;
-        top: 0;
-        margin: 0px;
-        z-index: 11;
-        margin-bottom: 20px;  
-    }
     
     header {
-     margin-bottom: 50px;
+     width: 100%;
+     background: #ff4714;
+     /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, hsla(13, 100%, 54%, 0.568), hsla(33, 100%, 50%, 0.644)), url(../img/padlet-fotos.png);
+     /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, hsla(13, 100%, 54%, 0.568), hsla(33, 100%, 50%, 0.644)), url(../img/padlet-fotos.png);
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     background-size: cover;
+     background-attachment: fixed;
+     position: relative;
+     height: 450px; 
+
     }
     
-    body {
-    padding-top: 120px;
+      nav{
+        text-align: right;
+
       }
     
     .menu-link {
     font-weight: 500;
-    font-size: 20px;
-    color: var(--azul-perry);
+    font-size: 22px;
+    color: white;
     display: inline-block;
     text-decoration: none;
-    margin-left: 90px;
+    padding: 50px 20px 0px 0px;
+    letter-spacing: -1px;
+
     }
     
     .menu-link:hover {
@@ -54,26 +52,7 @@
         color: var(--azul-perry-claro);
     }
     
-    footer{
-        position: relative; bottom: 0px; right: 0; left: 0;
-        width: 100%;
-    }
 
-    /*Foto sección*/
-.foto-seccion {
-    width: 100%;
-    height: 400px;
-    background: #fe8c00;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(13, 100%, 54%, 0.568), hsla(33, 100%, 50%, 0.644)), url(../img/padlet-fotos.png);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(13, 100%, 54%, 0.568), hsla(33, 100%, 50%, 0.644)), url(../img/padlet-fotos.png);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-  }
-  
   .wave {
     position: absolute;
     bottom: 0;
@@ -82,7 +61,7 @@
   
   .textos-foto {
     display: flex;
-    height: 300px;
+    height: 250px;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -92,10 +71,11 @@
   }
   
   .textos-foto h1 {
-    font-size: 140px;
+    font-size: 100px;
     font-weight: 800;
     color: white;
     opacity: .9;
+    letter-spacing: -4px;
   }
     
   /*info challenge*/
@@ -195,4 +175,17 @@
   .tiktok{
       color: white;
       text-align: center;
+  }
+
+  @media screen and (max-width: 800px){
+    header{
+      background-position: center;
+    }
+
+    .contenedor{
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    
   }
