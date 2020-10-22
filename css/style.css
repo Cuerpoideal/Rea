@@ -7,6 +7,8 @@
     --azul-perry-claro: #CBF3F0;
     }
 
+    @media screen and (max-width: 1920px){
+
     *{
         margin: 0;
         padding: 0;
@@ -176,6 +178,7 @@
       color: white;
       text-align: center;
   }
+}
 
   @media screen and (max-width: 800px){
     header{
