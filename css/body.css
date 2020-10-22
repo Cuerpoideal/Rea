@@ -1,2 +1,13 @@
 
 
+.info-body{
+    padding: 0 50px 0 50px;
+    font-size: 22px;
+    text-align: justify;
+    line-height: 32px;
+}
+
+.info-body p{
+    margin-bottom: 20px;
+
+}
