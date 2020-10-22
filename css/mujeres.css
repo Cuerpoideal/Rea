@@ -30,6 +30,9 @@
 
       .info-cuerpos{
           margin-bottom: 0px;
+          display: inline-block;
+          align-items: center;
+          text-align: center;
 
       }
 
@@ -42,4 +45,6 @@
           font-size: 12px;
           padding: 0;
       }
+
+      
   }
