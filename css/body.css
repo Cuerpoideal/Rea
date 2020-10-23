@@ -34,5 +34,14 @@
         font-size: 16px;
         text-align: justify;
     }
-    
+}
+@media screen and (max-width: 1255px){
+    .imagen-der{
+        transform: scale(0);
+    }
+
+    .imagen-izq{
+        transform: scale(0);
+    }
+
 }
