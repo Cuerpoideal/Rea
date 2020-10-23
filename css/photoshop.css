@@ -5,7 +5,7 @@
     font-size: 28px;
 }
 
-p{
+.contenedor p{
     font-size: 22px;
     line-height: 36px;
     text-align: justify;
@@ -42,7 +42,7 @@ p{
 }
 
 @media screen and (max-width: 500px){
-    p{
+    .contenedor p{
         font-size: 16px;
         line-height: 32px;
         text-align: justify;
