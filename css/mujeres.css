@@ -21,6 +21,10 @@
       font-size: 36px;
       margin-bottom: 10px;
   }
+
+  .info-cuerpos video{
+      width: 100%;
+  }
 }
 
   @media screen and (max-width: 500px){

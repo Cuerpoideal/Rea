@@ -208,6 +208,8 @@
     .ht {
       font-size: 16px;
       letter-spacing: -1px;
+      position: relative;
+      bottom: 30px;
     }
 
     .info-challenge{
